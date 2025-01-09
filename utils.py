@@ -39,7 +39,7 @@ def graph_data(result):
 
 def aditional_filter(result, response):
     if response == 'Yes':
-        options = ['Smoke Status', 'Diabetes', 'Diet', 'Age']
+        options = ['Diabetes', 'Diet', 'Age']
         d_filter = input(f'Filter by? {options} ==> ')
         if d_filter == 'Smoke Status':
             status = input('Smoking Status (Non-Smoker, Current Smoker, Ex-Smoker) ==> ')
